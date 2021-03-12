@@ -1,3 +1,46 @@
-.test {
-    color: red;
+
+img.bg-image {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+#title {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+#request{
+    width: 100%;
+    margin-top: 10px;
+}
+.tempResults{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.tempResults p {
+    margin: 2px 0;
+}
+.results{
+    margin-top: 7px;
+}
+#tempFeel,tempMin {
+    text-align: left;
+}
+.container {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+@media screen and (max-width: 1024px) { 
+img.bg-image {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+}
 }
